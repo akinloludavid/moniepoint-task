@@ -1,0 +1,72 @@
+@import "../../sass/variables";
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.arrow_one {
+  border: 2px solid $primary;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+}
+.arrow_two {
+  border: 2px solid $primary;
+  background-color: $primary;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+
+}
+.arrow_two.dental {
+  border-radius: 32px;
+  height: 64px;
+  min-width: 64px;
+  padding:0 16px;
+  h3{
+    color:$white;
+  }
+}
+.arrow_three {
+  background-color: $white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  height: 64px;
+  min-width: 64px;
+
+}
+.arrow_three.assistance{
+  border-radius: 32px;
+  height: 64px;
+  min-width: 64px;
+  padding:0 16px;
+  h3{
+    color:$primary;
+  }
+}
+.logo_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+  align-items: center;
+  .logo_text {
+    color: $primary;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+

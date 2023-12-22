@@ -1,0 +1,17 @@
+
+
+.logo_text{
+  overflow: hidden;
+  white-space: nowrap; /* Prevent text from wrapping */
+  animation: text_length 0.5s ease-in;
+}
+
+@keyframes text_length {
+  0% {
+    width:0%;
+  }
+  100%{
+    width:100%;
+
+  }
+}
